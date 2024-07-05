@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#topnav{
+    display: flex;
+    margin: 70px auto;
+    align-items: center;
+}
+#topnav .fornav>ul{
+    display: flex;
+    width: 45%;
+}
+#topnav .topdesc{
+    width: 45%;
+    margin:  auto;
+    padding: 8px;
+    display: flex;
+}
+#topnav>.topdesc>h2, p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    text-align: center;
+    
+}
+#topnav .fornav>ul>li>{
+    padding: 8px;
+    margin: 10px;
+}
+#topnav .fornav>ul>li>a{
+    padding: 8px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight:bold;
+    text-decoration: none;
+    color:rgb(22, 22, 33);
+}
