@@ -4,7 +4,7 @@
 }
 #topnav{
     display: flex;
-    margin: 70px auto;
+    margin: 30px auto;
     align-items: center;
 }
 #topnav .fornav>ul{
@@ -15,9 +15,9 @@
     width: 45%;
     margin:  auto;
     padding: 8px;
-    display: flex;
 }
-#topnav>.topdesc>h2, p{
+#topnav>.topdesc>h2{text-align: center;}
+#topnav>.topdesc>h2{
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
@@ -36,4 +36,16 @@
     font-weight:bold;
     text-decoration: none;
     color:rgb(22, 22, 33);
+}
+
+footer{
+    margin: 30px;
+    text-align: center;
+}
+table{border-collapse: collapse;}
+thead>tr>td{ font-weight: bold;}
+tfoot>tr>td{font-weight: 700;}
+td{
+    border: 1px solid black;
+    padding: 6px;
 }
