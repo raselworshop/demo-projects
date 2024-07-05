@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form submission</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        label{
+            display: block;
+            padding: 7px;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section id="topnav">
+        <div class="fornav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="blogs.html">VLOGS</a></li>
+                <li><a href="video.html">VIDEO</a></li>
+                <li><a href="audio.html">AUDIO</a></li>
+                <li><a href="support.html">SUPPORT</a></li>
+            </ul>
+           </div></section>
+    </header>
+    <main>
+        <section>
+        <h2>All the (*) info is needed,</h2>
+        <h3>please fill up the form very carefully;</h3>
+        <form style=" margin-top:20px">
+            <label for="fname">First Name:
+                <input id="fname" type="text" placeholder="type your first name">
+            </label>
+            <label for="lname">Last Name:
+                <input type="text" id="lname" placeholder="type your last name">
+            </label>
+            <label for="phone">Your phone:
+                <input type="text" id="phone" placeholder="give your phone number">
+            </label>
+            <label for="email">Your Email:
+                <input type="email" name="" id="email" placeholder="digitalweb@gmail.com">
+            </label>
+            <fieldset>
+                <legend>please pick one</legend>
+                <label for="reason1">
+                    <input type="radio" name="ability" id="reason1"> All the cost will be bear by me.
+                </label>
+                <label for="reason2">
+                    <input type="radio" name="ability" id="reason2"> All the cost will bear my parens.
+                </label>
+                <label for="reason3">
+                    <input type="radio" name="ability" id="reason3"> No, I am not able to manage at all.
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>You can choose below option for ability issue</legend>
+                <label for="reasons1">
+                    <input type="checkbox" name="" id="reasons1"> You have to pay less, but can enjoy at the ending!
+                </label>
+                <label for="reasons2">
+                    <input type="checkbox" name="" id="reasons2">You can borrow some money!!
+                </label>
+                <label for="reasons3">
+                    <input type="checkbox" name="" id="reason3"> You can go back for few days!!!
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Please, let us know how was your trip</legend>
+                <textarea name="" id="" cols="8" rows="6"></textarea>
+            </fieldset>
+            <input type="reset" value="reset"> 
+            <input type="submit" value="submit">
+        </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
